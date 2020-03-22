@@ -12,8 +12,15 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+	<jdk.version>1.8</jdk.version>
+	<spring.version>5.1.2.RELEASE</spring.version>
+	<junit.version>4.11</junit.version>
+	<log4j.version>1.2.17</log4j.version>
+	<sonar.host.url>http://3.19.237.64:9000/</sonar.host.url>
+	<sonar.login>admin</sonar.login>
+	<sonar.password>f98275bbea2435aefb75cd1e090ab5fa7e4ae509</sonar.password>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
   <modules>
