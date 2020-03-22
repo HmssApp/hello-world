@@ -29,11 +29,17 @@
   </modules>
 
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
+     <repository>
+	      <id>nexus</id>
+	      <name>Hello-world release</name>
+	      <url>http://52.14.65.22:8081/repository/Hello_world_releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://52.14.65.22:8081/repository/Hello_world_snapshots/</url>
+	    </snapshotRepository>
   </distributionManagement>
 
   <build>
