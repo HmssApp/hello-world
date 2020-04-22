@@ -10,7 +10,7 @@ metadata:
 spec:
   containers:
   - name:  hellowworldappcontainer         #name of a container
-    image:  agunuworld/hellowworldapp:17            #which images u want to create a container
+    image:  agunuworld/hellowworldapp:16            #which images u want to create a container
     ports:
     - containerPort: 8090
     
@@ -28,4 +28,4 @@ spec:
   ports:
   - port: 90                                                  #default
     targetPort: 8090    #target application of the pod ap
-    nodePort: 30001
+    nodePort: 32345
