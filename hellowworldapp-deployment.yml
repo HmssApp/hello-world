@@ -10,7 +10,7 @@ metadata:
 spec:
   containers:
   - name:  hellowworldappcontainer         #name of a container
-    image:  agunuworld/hellowworldapp            #which images u want to create a container
+    image:  agunuworld/hellowworldapp:17            #which images u want to create a container
     ports:
     - containerPort: 8080
     
